@@ -1,0 +1,168 @@
+/* FormBuilder specific custom CSS should go here. Basic form element styling can go in the main Layout.css file */
+.Inputfield {
+	margin-bottom: 15px !important;
+}
+
+.InputfieldContent {
+	
+}
+	.InputfieldContent > .description {
+		font-size: .75em;
+		line-height: 1.5em;
+		margin: -8px 0 10px 0;
+	}
+	.InputfieldContent > .notes {
+		font-size: .6em;
+		font-style: italic;
+	}
+
+li.Inputfield_total {
+	margin-bottom: 30px !important;
+}
+.InputfieldContent > #Inputfield_total,
+.InputfieldContent > .Inputfield_total-currency {
+	vertical-align: middle;
+	font-family: Arial, sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #3A6172;
+}
+#Inputfield_total {
+	box-shadow: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	background: inherit;
+	padding: 0;
+	font-size: 1.2em;
+	width: 75%;
+}
+	.Inputfield_total-currency {
+		font-weight: 700;
+	}
+	#Inputfield_total:focus {
+		outline: none;
+	}
+	
+.InputfieldHeader {
+	font-family: Arial;
+	font-size: .95em;
+	font-weight: 600;
+	padding-bottom: 7px;
+	display: block;
+	cursor: default;
+}
+
+.InputfieldFieldset {
+	background-color: #fefefe;
+	overflow: hidden;
+	border: 1px solid #eee;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+	.InputfieldFieldset > .InputfieldHeader {
+		font-size: .8em;
+		font-weight: bold;
+		font-family: Arial, sans-serif;
+		color: #f6f7f8;
+		text-transform: uppercase;
+		background-color: #5a81a1;
+		letter-spacing: .03em;
+		padding: 5px 20px !important;
+	}
+	.InputfieldFieldset > .InputfieldContent {
+		padding: 13px 20px 20px !important;
+		overflow: hidden;
+	}
+	@media (max-width:600px) {
+		.InputfieldFieldset > label.InputfieldHeader {
+			padding: 5px 15px !important;
+		}
+		.InputfieldFieldset > div.InputfieldContent {
+			padding: 7px 15px !important;
+		}
+		.InputfieldCheckboxesColumns > li {
+			width: 100% !important;
+		}
+	}
+	@media (max-width:479px) {
+		#wrap_Inputfield_state,
+		#wrap_Inputfield_zip_code {
+			width: 50% !important;
+		}
+	}
+
+.Inputfield_number_of_children {
+	margin-top: 30px !important;
+}	
+#Inputfield_number_of_children {
+	width: 100px;
+}	
+
+.Inputfield_legal {
+	margin-top: 30px !important;
+}
+
+#Inputfield_age,
+#Inputfield_age_2,
+#Inputfield_age_3,
+#Inputfield_age_4,
+#Inputfield_age_5,
+#Inputfield_age_6,
+#Inputfield_age_7,
+#Inputfield_age_8,
+#Inputfield_age_9 {
+	width: 100px;
+}
+
+.pw-no-select {
+	font-size: .9em;
+}
+
+.InputfieldRadiosStacked label, .InputfieldRadiosStacked input {
+	cursor: pointer;
+}
+	
+.InputfieldError, .fieldNotice_error {
+	background-color: #e45b59;
+	color: #fefefe;
+	font-size: .7em;
+	padding: 4px 5px;
+	line-height: 1.2em;
+	margin-bottom: 7px;
+	display: inline-block;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.formNotice_error {
+	background-color: #e45b59;
+	color: #fff;
+	font-weight: bold;
+	padding: 6px 8px;
+	text-align: center;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.InputfieldStateRequired > .InputfieldHeader:first-child::after {
+	color: #BE5250;
+}
+
+.InputfieldFieldset .txtBox:focus {
+	background: #fafafa;
+}
+
+.Inputfields #Inputfield_donation_amount {
+	width: 35%;
+}
+
+.InputfieldSubmit > div {
+	padding-top: 20px;
+}
