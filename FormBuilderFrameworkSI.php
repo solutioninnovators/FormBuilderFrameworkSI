@@ -68,10 +68,6 @@ class FormBuilderFrameworkSI extends FormBuilderFramework {
 		return $inputfields;
 	}
 
-	public function getConfigDefaults() {
-		return array();
-	}
-
 	public function getFrameworkURL() {
 		return dirname(__FILE__);
 	}
